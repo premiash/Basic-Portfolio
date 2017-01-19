@@ -28,11 +28,8 @@ header {
 	padding-top: 50px;
 	padding-bottom: 10px;
 	font-size: 10px;
-	
 	height: 75px;
 	width: 100%
-	
-	
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -78,11 +75,11 @@ a
 	padding-top: 30px;
 	background-color: #ffffff;
 	width: 650px; 
-	height: 600px;
+	height: auto;
 	margin-top: 30px;
 	margin-left: 270px;
 	margin-bottom: 30px;
-	padding: 30px;
+	padding: 25px;
 }
 
 .aside {
@@ -143,24 +140,53 @@ img {
 	padding-right: 30px;
 }
 
-
-
-
-
-
+.image1 {
 	float: left;
-	margin-left: 20px;
+	padding-right: 2px;
+	margin: 0px;
+}
+.image2 {
+	float: left;
+	padding: 0px;
+	margin: 3px;
+}
+
+
+.projectimage {
+	position: relative;
+	
+}
+
+
+h3 {
 	position: absolute;
-	word-break: normal;
-	width: 250px;
-	line-height: 200%;
-	display: inline-block;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	top: 130px;
+	background-color: #4aaaa5;
+	height: 40px;
+	width: 280px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#projects {
+	float: left;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+.wrapper {
+  	min-height: 100%;
+  	margin-bottom: -50px;
+}
 
 
-position: relative;
-	float: right;
-	margin: 20px 200px;
-	width: 270px;
-	background-color: #ccc;
-	background: url("../images/concrete_seamless.png");
+.push {
+	
+  	height: 50px;
+}
+
+
+
